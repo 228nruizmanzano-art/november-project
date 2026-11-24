@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #FFF3DF;
+    color: #54331F;
+    text-align: center;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #542B19;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #E6A34A !important;
+}
+
+/* Header */
+header {
+    background: linear-gradient(#783D20, #A34F1B);
+    color: white;
+    padding: 75px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Header Button */
+.hero-button {
+    display: inline-block;
+    background-color: #E6A34A;
+    color: #54331F;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #FFF1D6;
+}
+
+/* Main Section */
+.main {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #A34F1B;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Main Image */
+.main-image {
+    width: 85%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+/* Food Cards */
+.food-card {
+    background-color: #E6A34A;
+    color: #54331F;
+    padding: 25px 10px;
+    border-radius: 15px;
+    font-size: 35px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.food-card h5 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.food-card:hover {
+    transform: translateY(-5px);
+    background-color: #D68B32;
+}
+
+/* Fun Facts */
+.fact-box {
+    background-color: #F5D7A6;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.fact-box p {
+    margin: 12px;
+}
+
+/* JavaScript Section */
+.thankful-section {
+    background-color: #783D20;
+    color: white;
+    padding: 35px 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.thankful-section h2 {
+    color: #FFD28A;
+}
+
+.thankful-section p {
+    font-size: 18px;
+}
+
+/* Button */
+button {
+    background-color: #E6A34A;
+    color: #54331F;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FFF1D6;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #542B19;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+}
